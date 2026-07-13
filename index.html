@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main class="container">
+        <form id="inputForm">
+            <input type="color" id="color-picker" aria-label="color-input" value="#F55A5A">
+            <select id="scheme-select">
+                <option>Monochrome</option>
+                <option>Monochrome-dark</option>
+                <option>Monochrome-light</option>
+                <option>Analogic</option>
+                <option>Complement</option>
+                <option>Analogic-complement</option>
+                <option>Triad</option>
+                <option>Quad</option>
+            </select>
+            <button type="submit">Get Color Scheme</button>
+        </form>
+
+        <div class="palette">
+            <div id="color-0" class="color"></div>
+            <div id="color-1" class="color"></div>
+            <div id="color-2" class="color"></div>
+            <div id="color-3" class="color"></div>
+            <div id="color-4" class="color"></div>
+        </div>
+
+        <div class="color-hex">
+            <p id="hex-0"></p>
+            <p id="hex-1"></p>
+            <p id="hex-2"></p>
+            <p id="hex-3"></p>
+            <p id="hex-4"></p>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
