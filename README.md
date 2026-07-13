@@ -6,7 +6,7 @@ Users can choose a base color, select a color scheme mode, and instantly generat
 
 ## 🚀 Demo
 
-> Add your GitHub Pages link here after deployment.
+https://lively-conkies-a78a13.netlify.app/
 
 ## 📸 Screenshot
 
