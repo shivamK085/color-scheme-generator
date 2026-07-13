@@ -10,7 +10,7 @@ https://lively-conkies-a78a13.netlify.app/
 
 ## 📸 Screenshot
 
-> Add a screenshot of the application here.
+<img src="ss.png" width="90%">
 
 ## ✨ Features
 
